@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Settings">
+			<method name="Music"/>
+			<method name="Quality"/>
+			<method name="Close"/>
+			<method name="SFX"/>
+			<method name="Master"/>
+			<method name="Master"/>
+			<method name="Quality"/>
+			<method name="SFX"/>
+			<method name="Close"/>
+			<method name="Music"/>
+		</type>
+		<type fullname="MenuScripts">
+			<method name="StartGame"/>
+			<method name="Settings"/>
+			<method name="ExitGame"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="Restart"/>
+			<method name="Quit"/>
+			<method name="Restart"/>
+			<method name="Quit"/>
+		</type>
+		<type fullname="Pause">
+			<method name="ExitGame"/>
+			<method name="Resume"/>
+			<method name="Settings"/>
+		</type>
+	</assembly>
+</linker>
